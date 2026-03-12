@@ -1,0 +1,349 @@
+{
+  "dietData": {
+    "moreOf": [
+      {
+        "category": "Proteiner",
+        "items": [
+          "Kylling",
+          "Fisk",
+          "Tofu"
+        ],
+        "icon": "🥩",
+        "priority": true
+      },
+      {
+        "category": "Belgfrukter",
+        "items": [
+          "Linser",
+          "Kikerter"
+        ],
+        "icon": "🫘",
+        "priority": true
+      },
+      {
+        "category": "Lav-GI korn",
+        "items": [
+          "Bygg",
+          "Havre",
+          "Rug",
+          "Quinoa",
+          "Søtpotet",
+          "Basmatiris"
+        ],
+        "icon": "🌾",
+        "priority": false
+      },
+      {
+        "category": "Grønnsaker",
+        "items": [
+          "Brokkoli",
+          "Rosenkål",
+          "Kinakål",
+          "Spinat",
+          "Ruccola",
+          "Asparges",
+          "Zucchini",
+          "Paprika",
+          "Agurk",
+          "Løk",
+          "Purre"
+        ],
+        "icon": "🥦",
+        "priority": false
+      },
+      {
+        "category": "Umettet fett",
+        "items": [
+          "Olivenolje",
+          "Avokado",
+          "Nøtter"
+        ],
+        "icon": "🫒",
+        "priority": false
+      },
+      {
+        "category": "Omega-3",
+        "items": [
+          "Laks",
+          "Makrell",
+          "Sild"
+        ],
+        "icon": "🐟",
+        "priority": true
+      }
+    ],
+    "lessOf": [
+      {
+        "category": "Høy-GI karbo",
+        "items": [
+          "Sukker",
+          "Hvetemel",
+          "Fin stivelse",
+          "Poteter",
+          "Hvit pasta",
+          "Hvit ris"
+        ],
+        "icon": "🍬"
+      },
+      {
+        "category": "Gjær",
+        "items": [
+          "Tørrgjær",
+          "Ferskgjær",
+          "Øl"
+        ],
+        "icon": "🍺"
+      },
+      {
+        "category": "Ultraprosessert",
+        "items": [
+          "Kjeks",
+          "Ferdigmat",
+          "Pølser",
+          "Fast food"
+        ],
+        "icon": "🍟"
+      },
+      {
+        "category": "Mettet fett",
+        "items": [
+          "Rødt kjøtt",
+          "Smør",
+          "Fløte",
+          "Helmelk",
+          "Fet ost",
+          "Kokosolje"
+        ],
+        "icon": "🧈"
+      },
+      {
+        "category": "Transfett",
+        "items": [
+          "Ultraprosessert mat",
+          "Margarin (eldre type)"
+        ],
+        "icon": "⚠️"
+      }
+    ]
+  },
+  "macroBalance": [
+    {
+      "label": "Protein",
+      "value": 35,
+      "color": "#2D5016",
+      "desc": "Kylling, fisk, tofu, egg, belgfrukter"
+    },
+    {
+      "label": "Lav-GI karbo",
+      "value": 40,
+      "color": "#6B8F47",
+      "desc": "Bygg, havre, basmati, søtpotet"
+    },
+    {
+      "label": "Godt fett",
+      "value": 25,
+      "color": "#C8DDB5",
+      "desc": "Olivenolje, avokado, nøtter, fet fisk"
+    }
+  ],
+  "proteinSources": [
+    {
+      "name": "Laks",
+      "score": 95,
+      "tag": "Omega-3",
+      "emoji": "🐟"
+    },
+    {
+      "name": "Kylling",
+      "score": 90,
+      "tag": "Magert",
+      "emoji": "🍗"
+    },
+    {
+      "name": "Egg",
+      "score": 85,
+      "tag": "Allsidig",
+      "emoji": "🥚"
+    },
+    {
+      "name": "Tofu",
+      "score": 80,
+      "tag": "Plantebasert",
+      "emoji": "🟡"
+    },
+    {
+      "name": "Kikerter",
+      "score": 75,
+      "tag": "Fiber",
+      "emoji": "🫘"
+    },
+    {
+      "name": "Linser",
+      "score": 72,
+      "tag": "Rask",
+      "emoji": "🟤"
+    },
+    {
+      "name": "Torsk",
+      "score": 88,
+      "tag": "Magert",
+      "emoji": "🐠"
+    },
+    {
+      "name": "Makrell",
+      "score": 82,
+      "tag": "Omega-3",
+      "emoji": "🐡"
+    }
+  ],
+  "staples": [
+    {
+      "cat": "Protein & fisk",
+      "color": "#2D5016",
+      "items": [
+        {
+          "name": "Kyllingfilet/-lår",
+          "note": "Allsidig, magert, billig"
+        },
+        {
+          "name": "Laks",
+          "note": "Omega-3, 2–3x/uke"
+        },
+        {
+          "name": "Torsk / sei",
+          "note": "Magert hvitfiskalternativ"
+        },
+        {
+          "name": "Makrell i tomat",
+          "note": "Rask omega-3-kilde"
+        },
+        {
+          "name": "Egg",
+          "note": "Allsidig, billig, næringsrikt"
+        },
+        {
+          "name": "Tofu (fast)",
+          "note": "Planteprotein"
+        },
+        {
+          "name": "Kikerter (boks)",
+          "note": "Belgfrukter, fiber"
+        },
+        {
+          "name": "Røde linser",
+          "note": "Koker fort, ingen bløtlegging"
+        }
+      ]
+    },
+    {
+      "cat": "Korn & stivelse",
+      "color": "#6B8F47",
+      "items": [
+        {
+          "name": "Byggryn (perlegryn)",
+          "note": "Beste lav-GI-alternativ"
+        },
+        {
+          "name": "Basmatiris",
+          "note": "Lavere GI enn vanlig ris"
+        },
+        {
+          "name": "Havregryn (grovt)",
+          "note": "Frokost, pannekaker"
+        },
+        {
+          "name": "Fullkornspasta",
+          "note": "Enkel erstatning"
+        },
+        {
+          "name": "Soba-nudler",
+          "note": "Til asiatiske retter"
+        },
+        {
+          "name": "Quinoa",
+          "note": "Proteinrikt, 15 min koketid"
+        },
+        {
+          "name": "Rugbrød / knekkebrød",
+          "note": "Til lunsj"
+        }
+      ]
+    },
+    {
+      "cat": "Grønnsaker",
+      "color": "#4a7c2f",
+      "items": [
+        {
+          "name": "Brokkoli",
+          "note": "Rask, næringsrik"
+        },
+        {
+          "name": "Spinat (fersk/fryst)",
+          "note": "Wok, gryter, smoothie"
+        },
+        {
+          "name": "Kinakål",
+          "note": "Holdbar, god i wok"
+        },
+        {
+          "name": "Paprika",
+          "note": "Søt, mye C-vitamin"
+        },
+        {
+          "name": "Søtpotet",
+          "note": "Lav-GI potet-erstatning"
+        },
+        {
+          "name": "Sellerirot",
+          "note": "Mos og ovnsbaking"
+        },
+        {
+          "name": "Asparges",
+          "note": "Klassisk fisketilbehør"
+        },
+        {
+          "name": "Rosenkål",
+          "note": "Spesielt godt til fisk"
+        }
+      ]
+    },
+    {
+      "cat": "Pantry-essentials",
+      "color": "#8B6914",
+      "items": [
+        {
+          "name": "Hermetiske tomater",
+          "note": "Base i gryter og sauser"
+        },
+        {
+          "name": "Grønnsaks-/kyllingkraft",
+          "note": "Supper, byggotto"
+        },
+        {
+          "name": "Soyasaus / tamari",
+          "note": "Asiatiske retter"
+        },
+        {
+          "name": "Kecap manis",
+          "note": "Mie goreng, wok"
+        },
+        {
+          "name": "Østerssaus",
+          "note": "Umami, til wok"
+        },
+        {
+          "name": "Mirin / sake",
+          "note": "Japanske retter"
+        },
+        {
+          "name": "Olivenolje (extra virgin)",
+          "note": "Primær stekeolje"
+        },
+        {
+          "name": "Sesamolje",
+          "note": "Smakstilsetning"
+        }
+      ]
+    }
+  ]
+}

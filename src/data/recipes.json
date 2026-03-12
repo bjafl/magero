@@ -1,0 +1,397 @@
+[
+  {
+    "id": 1,
+    "name": "Teriyaki laks",
+    "time": "25 min",
+    "servings": 2,
+    "tags": ["#japansk", "#fisk", "#lav-GI"],
+    "description": "Klassisk japansk hverdagsrett med saftig laks i søt teriyakisaus.",
+    "ingredients": {
+      "Laks": [
+        "2 laksefileter med skinn",
+        "Salt og pepper",
+        "1 ss hvetemel",
+        "Olje og smør til steking",
+        "1 ss sake"
+      ],
+      "Teriyakisaus": [
+        "1 ss sake",
+        "1 ss mirin",
+        "1 ss sukker",
+        "2 ss soyasaus"
+      ],
+      "Serveres med": ["Basmatiris", "Valgfritt: vårløk og ristede sesamfrø"]
+    },
+    "steps": [
+      "Vask og kok ris.",
+      "Skyll og tørk laksefiletene. Krydre med salt og pepper.",
+      "Paner filetene med et tynt lag hvetemel.",
+      "Varm stekepanne med olje og smør på middels-høy varme.",
+      "Stek filetene 3 min med skinnsiden opp.",
+      "Flipp filetene, tilsett sake, ha på lokk og damp 3 min.",
+      "Bland sausingrediesene. Fjern overskuddsfett og tilsett sausen.",
+      "La sausen koke inn mens du øser den over filetene."
+    ],
+    "tip": "Pass på at stekepannen ikke er for varm når sausen tilsettes."
+  },
+  {
+    "id": 2,
+    "name": "Ovnsbakt laks med byggryn",
+    "time": "40 min",
+    "servings": 2,
+    "tags": ["#fisk", "#lav-GI", "#sunt"],
+    "description": "Enkel hverdagsmiddag med omega-3-rik laks og næringsrikt byggryn. Alt klart samtidig.",
+    "ingredients": {
+      "Byggryn": ["1,5 dl perlegryn (byggryn)", "4 dl vann", "½ ts salt"],
+      "Laks": [
+        "2 laksefileter med skinn (150–180 g)",
+        "Salt og pepper",
+        "1 ss olivenolje",
+        "½ ts hvitløkspulver",
+        "Revet skall av ½ sitron"
+      ],
+      "Grønnsaker": [
+        "1 bunt asparges (ca. 250 g)",
+        "1 ss olivenolje",
+        "Salt og pepper"
+      ],
+      "Sitron-urtedressing": [
+        "2 ss olivenolje",
+        "Saft av ½ sitron",
+        "1 ts dijonsennep",
+        "1 fedd hvitløk, finhakket",
+        "Salt og pepper"
+      ],
+      "Servering": ["Frisk persille eller dill", "Sitronbåter"]
+    },
+    "steps": [
+      "Ha byggryn, vann og salt i kjele. Kok opp, skru ned, ha på lokk. Kok 25–30 min.",
+      "Forvarm ovnen til 200 °C når byggryn har kokt i 15 min.",
+      "Legg asparges på bakeplate. Drypp over olje, salt og pepper.",
+      "Legg laksen ved siden av, skinnsiden ned. Drypp over olje, sitronskall og krydder.",
+      "Stek midt i ovnen 12–15 min til laksen flaker seg.",
+      "Bland dressingen i en liten skål.",
+      "Sil av eventuelt overskuddsvann fra byggryn, la dampe 2–3 min.",
+      "Fordel byggryn i to tallerkner, legg laks og asparges oppå. Drypp over dressing."
+    ],
+    "tip": "Kok gjerne dobbel porsjon byggryn – holder seg 3–4 dager i kjøleskap."
+  },
+  {
+    "id": 3,
+    "name": "Kung Pao kylling",
+    "time": "30 min",
+    "servings": 4,
+    "tags": ["#kinesisk", "#kylling", "#wok"],
+    "description": "Smaksrik wok-rett med kylling, sprø grønnsaker og peanøtter i en lett, aromatisk saus.",
+    "ingredients": {
+      "Kylling og marinade": [
+        "450 g kyllingbryst, i 2 cm terninger",
+        "1 ss soyasaus",
+        "1 ss østerssaus",
+        "1 ss risvin",
+        "1 ss maisstivelse",
+        "½ ts sukker",
+        "½ ts hvit pepper"
+      ],
+      "Saus": [
+        "1 ss soyasaus",
+        "1 ss østerssaus",
+        "1 ss risvin",
+        "1 ts sort bønnesaus",
+        "1 ss chilisaus",
+        "1 ts sukker"
+      ],
+      "Grønnsaker og øvrig": [
+        "113 g brokkolistamme",
+        "142 g selleri",
+        "57 g gulrot",
+        "57 g rød paprika",
+        "5 sjalottløk",
+        "4 fedd hvitløk",
+        "4 tørkede chilier",
+        "1 håndfull peanøtter",
+        "1 ss sesamolje",
+        "3 ss matolje",
+        "½ ss maisstivelse + 2 ss vann"
+      ],
+      "Serveres med": ["Basmatiris eller eggenudler"]
+    },
+    "steps": [
+      "Bland marinaden og vend kyllingbitene oppi. La stå 15–20 min.",
+      "Bland alle sausingrediesene i en liten skål.",
+      "Blansjer grønnsakene i lettsaltet kokende vann (1–2 min). Skyll med kaldt vann.",
+      "Rist peanøttene i tørr wok til gylne (2–3 min). Sett til side.",
+      "Stek kyllingen i 2 ss olje på høy varme til gjennomstekt og gyllen.",
+      "Tilsett 1 ss olje. Stek hvitløk, sjalottløk og chilier 30 sek.",
+      "Ha i grønnsakene og stek 1–2 min. Tilsett kylling, saus og 3 ss vann.",
+      "Rør inn maisstivelseblandingen og kok til sausen tykner.",
+      "Tilsett peanøtter og drypp sesamolje over."
+    ],
+    "tip": "Ha alle ingrediensene klare før du begynner – wok går raskt!"
+  },
+  {
+    "id": 4,
+    "name": "Linsesuppe med søtpotet",
+    "time": "35 min",
+    "servings": 4,
+    "tags": ["#vegetar", "#belgfrukter", "#lav-GI"],
+    "description": "Næringsrik og mettende suppe med røde linser og søtpotet. Enkel å lage, holder seg godt.",
+    "ingredients": {
+      "Ingredienser": [
+        "200 g røde linser",
+        "1 stor søtpotet (ca. 350 g), i terninger",
+        "1 boks hermetiske tomater (400 g)",
+        "1 l grønnsakskraft",
+        "1 gul løk, finhakket",
+        "3 fedd hvitløk, finhakket",
+        "1 ts spisskummen",
+        "1 ts gurkemeie",
+        "½ ts røkt paprika",
+        "2 never fersk spinat (ca. 80 g)",
+        "1 ss olivenolje",
+        "Salt og pepper",
+        "Sitron til servering"
+      ]
+    },
+    "steps": [
+      "Varm olivenolje i stor kjele. Stek løk til myk (ca. 5 min).",
+      "Tilsett hvitløk, spisskummen, gurkemeie og paprika. Stek 1 min.",
+      "Ha i søtpotet, linser, tomater og kraft.",
+      "Kok opp, skru ned og la simre 20–25 min til linsene er møre.",
+      "Rør inn spinaten og la falle sammen (ca. 2 min).",
+      "Smak til med salt, pepper og sitron."
+    ],
+    "tip": "Røde linser trenger ikke bløtlegges og gir naturlig kremete konsistens."
+  },
+  {
+    "id": 5,
+    "name": "Kikertgryte med spinat",
+    "time": "25 min",
+    "servings": 4,
+    "tags": ["#vegetar", "#belgfrukter", "#rask"],
+    "description": "Rask og mettende gryte med kikerter og spinat. Perfekt for travle hverdager.",
+    "ingredients": {
+      "Ingredienser": [
+        "2 bokser kikerter (à 400 g), avrent",
+        "1 boks hermetiske tomater (400 g)",
+        "1 stor pose fersk spinat (ca. 200 g)",
+        "1 gul løk, finhakket",
+        "4 fedd hvitløk, finhakket",
+        "1 ts paprikakrydder",
+        "1 ts gurkemeie",
+        "½ ts chiliflak",
+        "1 ts garam masala",
+        "2 ss olivenolje",
+        "Salt og pepper",
+        "Evt. gresk yoghurt til topping"
+      ]
+    },
+    "steps": [
+      "Varm olje i stor panne. Stek løk til myk og gyllen.",
+      "Tilsett hvitløk og alle krydder. Stek 1–2 min.",
+      "Ha i tomater og kikerter. Kok opp og la simre 10 min.",
+      "Rør inn spinat og la falle sammen.",
+      "Smak til med salt og pepper.",
+      "Server over quinoa, bygg eller med grovt brød."
+    ],
+    "tip": "Kan enkelt dobles og fryses ned – perfekt for travle dager."
+  },
+  {
+    "id": 6,
+    "name": "Byggotto med sopp og gulrot",
+    "time": "45 min",
+    "servings": 4,
+    "tags": ["#vegetar", "#lav-GI", "#italiensk-inspirert"],
+    "description": "Lav-GI vri på klassisk risotto – med byggryn istedenfor arborio. Kremete og næringsrikt.",
+    "ingredients": {
+      "Gulrøtter": [
+        "4 medium gulrøtter, i terninger",
+        "1 ss olivenolje + litt smør",
+        "1 ts sukker",
+        "½ ts salt",
+        "1 dl vann"
+      ],
+      "Byggotto": [
+        "300 g byggryn (perlegryn)",
+        "2 sjalottløk, finhakket",
+        "3 dl hvitvin (eller ekstra kraft)",
+        "8–10 dl varm kraft",
+        "2 ss olivenolje"
+      ],
+      "Sopp og topping": [
+        "400 g sopp",
+        "Smør, salt og pepper",
+        "40 g parmesan, revet",
+        "Evt. persille"
+      ]
+    },
+    "steps": [
+      "Kok gulrøtter i olje/smør med vann, sukker og salt under lokk til møre.",
+      "Ta av lokk og kok inn vannet til gulrøttene så vidt begynner å brune.",
+      "Sett til side halvparten. Mos resten med stavmikser + litt varm kraft.",
+      "Stek sopp i smør med salt og pepper. Sett til side.",
+      "Stek sjalottløk i olje. Tilsett byggryn og frese 2–3 min.",
+      "Tilsett vin og kok inn under omrøring.",
+      "Tilsett varm kraft, en øse om gangen. Rør jevnlig. Byggryn trenger 30–35 min.",
+      "Rør inn gulrotpuré, gulrotterninger, sopp og parmesan."
+    ],
+    "tip": "Byggryn absorberer mye væske – ha alltid litt ekstra varm kraft klar."
+  },
+  {
+    "id": 7,
+    "name": "Mie goreng",
+    "time": "45 min",
+    "servings": 4,
+    "tags": ["#indonesisk", "#kylling", "#wok"],
+    "description": "Rik og smaksrik indonesisk wok-rett. Bytt ramen mot soba-nudler for lavere GI.",
+    "ingredients": {
+      "Saus": [
+        "6 ss + 1 ts kecap manis",
+        "5 ts lys soyasaus",
+        "5 ts mørk soyasaus",
+        "2,5 ss østerssaus",
+        "½–1 ss chilipaste",
+        "6 ts sesamolje",
+        "5,5 ts kyllingbuljongpulver",
+        "knapt 1 ts hvit pepper"
+      ],
+      "Hovedrett": [
+        "400 g kyllingbryst, i tynne skiver",
+        "2 sjalottløk, finhakket",
+        "4 fedd hvitløk, finhakket",
+        "½ kinakål (ca. 400 g), grovhakket",
+        "3–4 gulrøtter, julienne",
+        "5 pakker soba-nudler (bokhvete)",
+        "2 dl bønnespirer",
+        "3 egg",
+        "Valgfritt: vårløk og lime"
+      ]
+    },
+    "steps": [
+      "Kok nudler etter anvisning. Bland alle sausingrediesene.",
+      "Stek sjalottløk i 3 ss olje til gyllen og sprø (5–7 min). Sett til side.",
+      "Stek kylling med salt og pepper på høy varme i 2 omganger.",
+      "Wok sjalottløk og hvitløk 30 sek. Tilsett kinakål og gulrot, wok 3–4 min.",
+      "Tilsett nudler og saus, bland 2–3 min. Rør inn kylling og bønnespirer.",
+      "Skyv nudler til siden. Knus inn egg og rør til scrambled. Bland inn.",
+      "Server med fritert sjalottløk, vårløk og limebåt."
+    ],
+    "tip": "Ha alt klart før du starter – wok går fort! Høy varme gir wok hei-smaken."
+  },
+  {
+    "id": 8,
+    "name": "Cottage cheese-pannekaker",
+    "time": "20 min",
+    "servings": 2,
+    "tags": ["#frokost", "#protein", "#rask"],
+    "description": "Proteinrik frokost med havremel og cottage cheese. Mettende og lav-GI.",
+    "ingredients": {
+      "Ingredienser": [
+        "350 g cottage cheese (lett)",
+        "4 egg",
+        "150 g havremel",
+        "2 ts bakepulver",
+        "2 ts vaniljeekstrakt (valgfritt)",
+        "Klype salt",
+        "20 g smør til steking",
+        "300 g bær til servering"
+      ]
+    },
+    "steps": [
+      "Visp sammen cottage cheese, egg og vanilje.",
+      "Bland havremel, bakepulver og salt i en annen bolle.",
+      "Bland det tørre inn i det våte.",
+      "Varm smør i stekepanne på middels varme.",
+      "Ha ca. 1 ss røre per lapp. Stek 2 min på hver side til gyllen.",
+      "Server med bær."
+    ],
+    "tip": "Havremel + cottage cheese gir lav-GI og høyt protein."
+  },
+  {
+    "id": 9,
+    "name": "Havregrøt med bær og nøtter",
+    "time": "5 min",
+    "servings": 1,
+    "tags": ["#frokost", "#lav-GI", "#rask"],
+    "description": "Den klassiske lav-GI frokost. Grovvalsede havregryn holder seg mettende lenge.",
+    "ingredients": {
+      "Ingredienser": [
+        "1,5 dl havregryn (grovvalsede)",
+        "3 dl vann",
+        "Klype salt",
+        "Håndfull blåbær eller bær",
+        "1 ss valnøtter eller mandler, hakket",
+        "1 ts gresk yoghurt eller skyr (valgfritt)",
+        "Kanel etter smak"
+      ]
+    },
+    "steps": [
+      "Ha havregryn, vann og salt i mikrobølgeovnskål.",
+      "Mikro på 700W i 1,5 min. Rør. Mikro ytterligere 1,5 min.",
+      "Rør godt og la stå 1 min.",
+      "Topp med bær, nøtter og kanel."
+    ],
+    "tip": "Grovvalsede havregryn (ikke instant) gir lavere GI."
+  },
+  {
+    "id": 10,
+    "name": "Tofu teriyaki",
+    "time": "30 min",
+    "servings": 2,
+    "tags": ["#vegetar", "#japansk", "#plantebasert"],
+    "description": "Sprøstekt tofu i klassisk teriyakisaus. Enkel plantebasert hverdagsrett.",
+    "ingredients": {
+      "Tofu": [
+        "1 blokk fast tofu",
+        "4 ss potetmel",
+        "1 tomat, finhakket",
+        "Sesamolje til steking"
+      ],
+      "Teriyakisaus": [
+        "4 ss soyasaus",
+        "4 ss vann",
+        "4 ss mirin (eller sake + sukker)",
+        "1 ss sukker"
+      ],
+      "Serveres med": ["Bygg eller basmatiris"]
+    },
+    "steps": [
+      "Del tofu i kuber og press ut vann (30–60 min).",
+      "Dekk kubene jevnt med potetmel.",
+      "Stek i sesamolje på alle sider til gylne.",
+      "Fjern overskuddsfett og la pannen kjøle noe ned.",
+      "Tilsett sausblandingen og finhakket tomat.",
+      "Kok til sausen tykner. Server over ris."
+    ],
+    "tip": "Bygg er et utmerket alternativ til hvit ris her."
+  },
+  {
+    "id": 11,
+    "name": "Ovnsbakt torsk med asparges",
+    "time": "25 min",
+    "servings": 2,
+    "tags": ["#fisk", "#enkel", "#lav-GI"],
+    "description": "Enkel og næringsrik hverdagsmiddag med magert hvitfiskalternativ.",
+    "ingredients": {
+      "Ingredienser": [
+        "2 torskefileter (ca. 150–180 g hver)",
+        "1 bunt asparges (ca. 250 g)",
+        "2 ss olivenolje",
+        "2 fedd hvitløk, finhakket",
+        "Revet skall og saft av ½ sitron",
+        "Salt og pepper",
+        "Frisk persille til servering"
+      ],
+      "Serveres med": ["Byggryn, quinoa eller basmatiris"]
+    },
+    "steps": [
+      "Forvarm ovnen til 200 °C. Start valgt tilbehør.",
+      "Legg asparges på bakeplate. Drypp over olje, salt og pepper.",
+      "Legg torskefiletene ved siden av. Drypp over olje, hvitløk og sitronsaft.",
+      "Strø over sitronskall, salt og pepper.",
+      "Stek midt i ovnen 12–15 min til fisken er gjennomstekt.",
+      "Server med tilbehør og frisk persille."
+    ],
+    "tip": "Spar aspargesstilkene til suppe eller kraft."
+  }
+]
