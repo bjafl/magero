@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#2D5016"/>
+  <!-- Leaf shape -->
+  <path d="M256 96 C320 96 400 160 400 256 C400 352 320 416 256 416 C256 416 256 320 256 256 C256 192 256 96 256 96 Z" fill="#C8DDB5" opacity="0.9"/>
+  <path d="M256 416 C192 416 112 352 112 256 C112 160 192 96 256 96 C256 96 256 192 256 256 C256 320 256 416 256 416 Z" fill="#6B8F47" opacity="0.9"/>
+  <!-- Center stem -->
+  <line x1="256" y1="100" x2="256" y2="412" stroke="#FAFAF7" stroke-width="8" stroke-linecap="round"/>
+  <!-- Veins -->
+  <path d="M256 200 Q220 190 200 160" stroke="#FAFAF7" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.6"/>
+  <path d="M256 260 Q210 248 185 215" stroke="#FAFAF7" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.6"/>
+  <path d="M256 320 Q215 305 195 275" stroke="#FAFAF7" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.6"/>
+  <path d="M256 200 Q292 190 312 160" stroke="#FAFAF7" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.6"/>
+  <path d="M256 260 Q302 248 327 215" stroke="#FAFAF7" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.6"/>
+  <path d="M256 320 Q297 305 317 275" stroke="#FAFAF7" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.6"/>
+</svg>
