@@ -48,7 +48,7 @@ export function MacroDonut({ macroBalance }: MacroDonutProps) {
           ))}
         </svg>
         <div className="absolute inset-0 flex flex-col items-center justify-center">
-          <span className="text-[11px] text-[#8A8680] font-dm-mono">
+          <span className="text-[11px] text-muted-foreground font-dm-mono">
             balanse
           </span>
         </div>
@@ -60,10 +60,10 @@ export function MacroDonut({ macroBalance }: MacroDonutProps) {
               className="w-2.5 h-2.5 rounded-full shrink-0"
               style={{ background: m.color }}
             />
-            <span className="font-fraunces text-[13px] text-[#2C2A27] flex-1">
+            <span className="font-fraunces text-[13px] text-foreground flex-1">
               {m.label}
             </span>
-            <span className="font-dm-mono text-[12px] text-[#6B8F47] font-semibold">
+            <span className="font-dm-mono text-[12px] text-ring font-semibold">
               {m.value}%
             </span>
           </div>

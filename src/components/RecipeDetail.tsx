@@ -22,7 +22,7 @@ export function RecipeDetail({ recipe, onClose }: RecipeDetailProps) {
       <SheetContent
         side="bottom"
         showCloseButton={false}
-        className="mx-auto flex max-h-[90vh] max-w-150 flex-col gap-0 rounded-t-3xl border-0 bg-[#FAFAF7] p-0"
+        className="mx-auto flex max-h-[90vh] max-w-150 flex-col gap-0 rounded-t-3xl border-0 bg-popover p-0"
       >
         {recipe && (
           <Tabs
@@ -31,23 +31,23 @@ export function RecipeDetail({ recipe, onClose }: RecipeDetailProps) {
             className="flex flex-1 flex-col overflow-hidden"
           >
             {/* Header */}
-            <SheetHeader className="shrink-0 gap-0 bg-[#FAFAF7] px-5 pt-5 pb-0">
+            <SheetHeader className="shrink-0 gap-0 bg-popover px-5 pt-5 pb-0">
               <div className="mb-2 flex items-start justify-between">
-                <SheetTitle className="flex-1 text-left font-fraunces text-[22px] leading-tight font-extrabold text-[#2D5016]">
+                <SheetTitle className="flex-1 text-left font-fraunces text-[22px] leading-tight font-extrabold text-primary">
                   {recipe.name}
                 </SheetTitle>
                 <button
                   onClick={onClose}
-                  className="ml-2 flex h-8 w-8 shrink-0 cursor-pointer items-center justify-center rounded-full border-none bg-[#e8e8e2] text-base"
+                  className="ml-2 flex h-8 w-8 shrink-0 cursor-pointer items-center justify-center rounded-full border-none bg-muted text-base"
                 >
                   ✕
                 </button>
               </div>
               <div className="mb-3 flex gap-3">
-                <span className="font-dm-mono text-[12px] text-[#6B8F47]">
+                <span className="font-dm-mono text-[12px] text-ring">
                   ⏱ {recipe.time}
                 </span>
-                <span className="font-dm-mono text-[12px] text-[#6B8F47]">
+                <span className="font-dm-mono text-[12px] text-ring">
                   👥 {recipe.servings} pers.
                 </span>
               </div>
@@ -57,16 +57,16 @@ export function RecipeDetail({ recipe, onClose }: RecipeDetailProps) {
                 ))}
               </div>
 
-              <TabsList className="h-auto w-full justify-start gap-0 rounded-none border-b-2 border-[#e8e8e2] bg-transparent p-0">
+              <TabsList className="h-auto w-full justify-start gap-0 rounded-none border-b-2 border-border bg-transparent p-0">
                 <TabsTrigger
                   value="ingredients"
-                  className="-mb-0.5 rounded-none border-b-2 bg-transparent px-4 py-2 font-fraunces text-[14px] font-semibold shadow-none data-[state=active]:border-[#2D5016] data-[state=active]:text-[#2D5016] data-[state=inactive]:border-transparent data-[state=inactive]:text-[#8A8680]"
+                  className="-mb-0.5 rounded-none border-b-2 bg-transparent px-4 py-2 font-fraunces text-[14px] font-semibold shadow-none data-[state=active]:border-primary data-[state=active]:text-primary data-[state=inactive]:border-transparent data-[state=inactive]:text-muted-foreground"
                 >
                   Ingredienser
                 </TabsTrigger>
                 <TabsTrigger
                   value="steps"
-                  className="-mb-0.5 rounded-none border-b-2 bg-transparent px-4 py-2 font-fraunces text-[14px] font-semibold shadow-none data-[state=active]:border-[#2D5016] data-[state=active]:text-[#2D5016] data-[state=inactive]:border-transparent data-[state=inactive]:text-[#8A8680]"
+                  className="-mb-0.5 rounded-none border-b-2 bg-transparent px-4 py-2 font-fraunces text-[14px] font-semibold shadow-none data-[state=active]:border-primary data-[state=active]:text-primary data-[state=inactive]:border-transparent data-[state=inactive]:text-muted-foreground"
                 >
                   Fremgangsmåte
                 </TabsTrigger>
@@ -79,19 +79,19 @@ export function RecipeDetail({ recipe, onClose }: RecipeDetailProps) {
                 <div className="flex flex-col gap-4">
                   {Object.entries(recipe.ingredients).map(([group, items]) => (
                     <div key={group}>
-                      <h4 className="mb-2 font-fraunces text-[13px] font-bold tracking-wide text-[#6B8F47] uppercase">
+                      <h4 className="mb-2 font-fraunces text-[13px] font-bold tracking-wide text-ring uppercase">
                         {group}
                       </h4>
                       <div className="flex flex-col gap-1">
                         {items.map((item, i) => (
                           <div
                             key={i}
-                            className="flex items-start gap-2.5 border-b border-[#f0f0ea] py-1.5"
+                            className="flex items-start gap-2.5 border-b border-divider py-1.5"
                           >
-                            <span className="mt-0.5 shrink-0 text-[12px] text-[#6B8F47]">
+                            <span className="mt-0.5 shrink-0 text-[12px] text-ring">
                               •
                             </span>
-                            <span className="font-georgia text-[14px] text-[#2C2A27]">
+                            <span className="font-georgia text-[14px] text-foreground">
                               {item}
                             </span>
                           </div>
@@ -106,18 +106,18 @@ export function RecipeDetail({ recipe, onClose }: RecipeDetailProps) {
                 <div className="flex flex-col gap-2.5">
                   {recipe.steps.map((step, i) => (
                     <div key={i} className="flex items-start gap-3">
-                      <div className="flex h-6.5 w-6.5 shrink-0 items-center justify-center rounded-full bg-[#2D5016] font-dm-mono text-[11px] font-bold text-white">
+                      <div className="flex h-6.5 w-6.5 shrink-0 items-center justify-center rounded-full bg-primary font-dm-mono text-[11px] font-bold text-primary-foreground">
                         {i + 1}
                       </div>
-                      <p className="m-0 pt-0.75 font-georgia text-[14px] leading-relaxed text-[#2C2A27]">
+                      <p className="m-0 pt-0.75 font-georgia text-[14px] leading-relaxed text-foreground">
                         {step}
                       </p>
                     </div>
                   ))}
                   {recipe.tip && (
-                    <div className="mt-2 flex gap-2.5 rounded-xl border border-[#f0d880] bg-[#fef9ec] p-3">
+                    <div className="mt-2 flex gap-2.5 rounded-xl border border-tip-border bg-tip-bg p-3">
                       <span className="text-base">💡</span>
-                      <p className="m-0 font-georgia text-[13px] leading-relaxed text-[#7a6010] italic">
+                      <p className="m-0 font-georgia text-[13px] leading-relaxed text-tip-text italic">
                         {recipe.tip}
                       </p>
                     </div>

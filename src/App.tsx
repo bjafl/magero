@@ -17,6 +17,7 @@ import { ProteinCard } from "@/components/ProteinCard"
 import { RecipeCard } from "@/components/RecipeCard"
 import { RecipeDetail } from "@/components/RecipeDetail"
 import { StaplesView } from "@/components/StaplesView"
+import { ThemeToggle } from "@/components/ThemeToggle"
 
 const { macroBalance, proteinSources, dietData, staples } = nutritionData
 const recipes = recipesJson as unknown as Recipe[]
@@ -45,18 +46,19 @@ export default function App() {
       : recipes.filter((r) => r.tags.includes(recipeFilter))
 
   return (
-    <div className="min-h-screen bg-[#F2F0EB]">
+    <div className="min-h-screen bg-background">
       <div className="mx-auto max-w-150" style={{ paddingBottom: "calc(5rem + env(safe-area-inset-bottom))" }}>
         {/* Header */}
         <div className="sticky top-0 z-50 bg-[#2D5016] px-5 pb-5" style={{ paddingTop: "max(1.5rem, env(safe-area-inset-top))" }}>
-          <div className="mb-1 flex items-baseline gap-2.5">
-            <h1 className="m-0 font-fraunces text-2xl font-extrabold text-[#F2F0EB]">
+          <div className="mb-1 flex items-center gap-2.5">
+            <h1 className="m-0 flex-1 font-fraunces text-2xl font-extrabold text-[#F2F0EB]">
               Kostholdsguide
             </h1>
-            <span className="font-dm-mono text-[11px] text-[#C8DDB5]">
-              retning, ikke regler
-            </span>
+            <ThemeToggle />
           </div>
+          <span className="font-dm-mono text-[11px] text-[#C8DDB5]">
+            retning, ikke regler
+          </span>
         </div>
 
         {/* Content */}
@@ -96,8 +98,8 @@ export default function App() {
 
               {/* Macro donut + key items */}
               <div className="grid grid-cols-2 gap-3">
-                <div className="rounded-2xl border border-[#e8e8e2] bg-white p-4">
-                  <div className="mb-3 font-fraunces text-[13px] font-bold text-[#2D5016]">
+                <div className="rounded-2xl border border-border bg-card p-4">
+                  <div className="mb-3 font-fraunces text-[13px] font-bold text-primary">
                     Makrobalanse
                   </div>
                   <MacroDonut macroBalance={macroBalance} />
@@ -119,14 +121,14 @@ export default function App() {
                   ].map((k) => (
                     <div
                       key={k.label}
-                      className="flex items-center gap-2 rounded-xl border border-[#e8e8e2] bg-white p-2.5"
+                      className="flex items-center gap-2 rounded-xl border border-border bg-card p-2.5"
                     >
                       <span className="text-lg">{k.icon}</span>
                       <div>
-                        <div className="font-fraunces text-[12px] font-semibold text-[#2D5016]">
+                        <div className="font-fraunces text-[12px] font-semibold text-primary">
                           {k.label}
                         </div>
-                        <div className="font-dm-mono text-[10px] text-[#8A8680]">
+                        <div className="font-dm-mono text-[10px] text-muted-foreground">
                           {k.sub}
                         </div>
                       </div>
@@ -139,8 +141,8 @@ export default function App() {
               <DietTable dietData={dietData} />
 
               {/* Smart swaps */}
-              <div className="rounded-2xl border border-[#e8e8e2] bg-white p-4">
-                <div className="mb-3 font-fraunces text-[14px] font-bold text-[#2D5016]">
+              <div className="rounded-2xl border border-border bg-card p-4">
+                <div className="mb-3 font-fraunces text-[14px] font-bold text-primary">
                   Enkle bytter som monner
                 </div>
                 {[
@@ -152,13 +154,13 @@ export default function App() {
                 ].map(([from, to]) => (
                   <div
                     key={from}
-                    className="flex items-center gap-2.5 border-b border-[#f4f4f0] py-2"
+                    className="flex items-center gap-2.5 border-b border-divider py-2"
                   >
-                    <span className="flex-1 font-georgia text-[13px] text-[#a06040]">
+                    <span className="flex-1 font-georgia text-[13px] text-warm-subtext">
                       {from}
                     </span>
-                    <span className="text-[14px] text-[#6B8F47]">→</span>
-                    <span className="flex-1 text-right font-georgia text-[13px] text-[#2D5016]">
+                    <span className="text-[14px] text-ring">→</span>
+                    <span className="flex-1 text-right font-georgia text-[13px] text-primary">
                       {to}
                     </span>
                   </div>
@@ -185,8 +187,8 @@ export default function App() {
               </div>
 
               {/* Protein scores */}
-              <div className="rounded-2xl border border-[#e8e8e2] bg-white p-4">
-                <div className="mb-3 font-fraunces text-[14px] font-bold text-[#2D5016]">
+              <div className="rounded-2xl border border-border bg-card p-4">
+                <div className="mb-3 font-fraunces text-[14px] font-bold text-primary">
                   Anbefalte proteinkilder
                 </div>
                 <div className="flex flex-col gap-2">
@@ -199,8 +201,8 @@ export default function App() {
               </div>
 
               {/* Protein timing */}
-              <div className="rounded-2xl border border-[#e8e8e2] bg-white p-4">
-                <div className="mb-3 font-fraunces text-[14px] font-bold text-[#2D5016]">
+              <div className="rounded-2xl border border-border bg-card p-4">
+                <div className="mb-3 font-fraunces text-[14px] font-bold text-primary">
                   Protein gjennom dagen
                 </div>
                 {[
@@ -231,20 +233,20 @@ export default function App() {
                 ].map((item) => (
                   <div
                     key={item.meal}
-                    className="border-b border-[#f4f4f0] py-2.5"
+                    className="border-b border-divider py-2.5"
                   >
                     <div className="flex items-start gap-2.5">
                       <span className="text-lg leading-[1.3]">{item.icon}</span>
                       <div>
                         <div className="mb-0.5 flex items-center gap-2">
-                          <span className="font-fraunces text-[14px] font-bold text-[#2D5016]">
+                          <span className="font-fraunces text-[14px] font-bold text-primary">
                             {item.meal}
                           </span>
                         </div>
-                        <span className="mb-0.5 block font-dm-mono text-[11px] text-[#6B8F47]">
+                        <span className="mb-0.5 block font-dm-mono text-[11px] text-ring">
                           {item.protein}
                         </span>
-                        <span className="font-georgia text-[12px] text-[#8A8680] italic">
+                        <span className="font-georgia text-[12px] text-muted-foreground italic">
                           {item.examples}
                         </span>
                       </div>
@@ -289,15 +291,15 @@ export default function App() {
                     onClick={() => setRecipeFilter(tag)}
                     className={`cursor-pointer rounded-full border px-3 py-1.5 font-dm-mono text-[11px] whitespace-nowrap transition-all duration-150 ${
                       recipeFilter === tag
-                        ? "border-[#2D5016] bg-[#2D5016] text-white"
-                        : "border-[#e8e8e2] bg-white text-[#2C2A27]"
+                        ? "border-primary bg-primary text-primary-foreground"
+                        : "border-border bg-card text-foreground"
                     }`}
                   >
                     {tag}
                   </button>
                 ))}
               </div>
-              <div className="font-dm-mono text-[11px] text-[#8A8680]">
+              <div className="font-dm-mono text-[11px] text-muted-foreground">
                 {filteredRecipes.length} oppskrifter
               </div>
               {filteredRecipes.map((r) => (
@@ -329,7 +331,14 @@ export default function App() {
       </div>
 
       {/* Bottom navigation */}
-      <div className="fixed bottom-0 left-1/2 z-60 w-full max-w-150 -translate-x-1/2 border-t border-[#e0ddd6] bg-[rgba(242,240,235,0.95)] px-4 pt-2 backdrop-blur-md" style={{ paddingBottom: "max(0.75rem, env(safe-area-inset-bottom))" }}>
+      <div
+        className="fixed bottom-0 left-1/2 z-60 w-full max-w-150 -translate-x-1/2 border-t px-4 pt-2 backdrop-blur-md"
+        style={{
+          background: "var(--nav-bg)",
+          borderColor: "var(--nav-border)",
+          paddingBottom: "max(0.75rem, env(safe-area-inset-bottom))",
+        }}
+      >
         <div className="flex justify-around">
           {tabs.map((t) => (
             <button
@@ -342,13 +351,13 @@ export default function App() {
                 className="transition-all duration-150"
                 style={{
                   opacity: tab === t.id ? 1 : 0.4,
-                  color: tab === t.id ? "#2D5016" : "#8A8680",
+                  color: tab === t.id ? "var(--primary)" : "var(--muted-foreground)",
                 }}
               />
               <span
                 className="font-dm-mono text-[10px]"
                 style={{
-                  color: tab === t.id ? "#2D5016" : "#8A8680",
+                  color: tab === t.id ? "var(--primary)" : "var(--muted-foreground)",
                   fontWeight: tab === t.id ? 600 : 400,
                 }}
               >

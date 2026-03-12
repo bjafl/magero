@@ -25,8 +25,8 @@ export function Tag({ label }: TagProps) {
   const bg = tagColors[label] ?? "#e8e8e8";
   return (
     <span
-      className="font-dm-mono text-[11px] whitespace-nowrap rounded-full px-2 py-0.5 border border-black/[0.08]"
-      style={{ background: bg, color: "#2C2A27" }}
+      className="font-dm-mono text-[11px] whitespace-nowrap rounded-full px-2 py-0.5 border border-black/8 text-foreground"
+      style={{ background: bg }}
     >
       {label}
     </span>
