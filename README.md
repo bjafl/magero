@@ -1,21 +1,33 @@
-# React + TypeScript + Vite + shadcn/ui
+# Kostholdsguide
 
-This is a template for a new Vite project with React, TypeScript, and shadcn/ui.
+Personlig kostholdsguide som PWA – protein, lav-GI og gode fettsyrer. Retning, ikke regler.
 
-## Adding components
+## Funksjoner
 
-To add components to your app, run the following command:
+- **Oversikt** – kjerneprinsipper, makrobalanse-donut, kostholdsråd og enkle matbytter
+- **Protein** – rangerte proteinkilder med score, måltidsfordeling og omega-3-fokus
+- **Oppskrifter** – filtrerbart oppskriftsbibliotek med ingredienser og fremgangsmåte
+- **Staples** – anbefalt fast lager fordelt på kategori
+
+Fungerer som hjemskjerm-app på iPhone via Safari (PWA).
+
+## Teknisk
+
+- React 19 + TypeScript
+- Tailwind CSS v4
+- shadcn/ui (sheet, tabs, accordion, badge, card)
+- Lucide React (ikoner)
+- Vite
+
+## Kom i gang
 
 ```bash
-npx shadcn@latest add button
+npm install
+npm run dev
 ```
 
-This will place the ui components in the `src/components` directory.
+## Bygg
 
-## Using components
-
-To use the components in your app, import them as follows:
-
-```tsx
-import { Button } from "@/components/ui/button"
+```bash
+npm run build
 ```
